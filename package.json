@@ -8,7 +8,8 @@
     "test:goodrx": "wdio wdio.conf.js --spec ./test/specs/goodrx.js --inspect",
     "test:userLoginFormDesign": "wdio wdio.conf.js --spec ./test/specs/user/loginForm/design/user_login_form_design.js --inspect",
     "test:userLoginFormFunc": "wdio wdio.conf.js --spec ./test/specs/user/loginForm/func/user_loginForm_func.js --inspect",
-    "test:user:register:integration": "wdio wdio.conf.js --spec ./test/specs/user/integration/user-register-ligin-integration.js --inspect"
+    "test:user:register:integration": "wdio wdio.conf.js --spec ./test/specs/user/integration/user-register-ligin-integration.js --inspect",
+    "test:ligthShotTest": "wdio wdio.conf.js --spec ./test/ligthShotTest.js --inspect"
   },
   "keywords": [],
   "author": "",
