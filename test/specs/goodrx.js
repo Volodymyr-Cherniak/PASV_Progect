@@ -20,7 +20,7 @@ describe('Amoxicilin', () => {
         browser.refresh();
     });
 
-    it('should open the main page with corect h1', function () {
+    it('should open the main page with correct h1', function () {
         const h1Text = $('//h1').getText();
         const h1TextExpected = 'Stop paying too much for your prescriptions';
         assert.equal(h1Text, h1TextExpected);
