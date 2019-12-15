@@ -28,7 +28,7 @@ describe('User -- Login Form -- Design', () => {
     });
 
     it('should be correct borderColor with corect value in emailField', function () {
-        $(sel.emailInputField).setValue(user.admin.login);
+        $(sel.emailInputField).setValue(user.admin.email);
         browser.keys('Tab');
         browser.pause(200);
         let actualBorderColor = $(sel.emailInputField).getCSSProperty('border-color').parsed.hex;
@@ -38,7 +38,7 @@ describe('User -- Login Form -- Design', () => {
 
 
     it('should be correct borderColor with incorect  value in emailField', function () {
-        $(sel.emailInputField).setValue('user.admin.login');
+        $(sel.emailInputField).setValue('user.admin.email');
         browser.keys('Tab');
         let actualBorderColor = $(sel.emailInputField).getCSSProperty('border-color');
         let expectedBorderColor = exp.emailInputFieldWithIncorectValueBorderColor;

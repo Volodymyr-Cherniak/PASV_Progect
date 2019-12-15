@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test:userRegisterFormFunc": "wdio wdio.conf.js --spec ./test/specs/user/registerForm/func/user-registerForm-func.js --inspect",
     "test": "wdio wdio.conf.js",
     "test:goodrx": "wdio wdio.conf.js --spec ./test/specs/goodrx.js --inspect",
+    "test:rocketlawyer": "wdio wdio.conf.js --spec ./test/specs/rocketlawyer.js --inspect",
     "test:userLoginFormDesign": "wdio wdio.conf.js --spec ./test/specs/user/loginForm/design/user_login_form_design.js --inspect",
     "test:userLoginFormFunc": "wdio wdio.conf.js --spec ./test/specs/user/loginForm/func/user_loginForm_func.js --inspect",
     "test:user:register:integration": "wdio wdio.conf.js --spec ./test/specs/user/integration/user-register-ligin-integration.js --inspect",

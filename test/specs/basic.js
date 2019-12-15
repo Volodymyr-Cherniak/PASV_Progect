@@ -3,7 +3,7 @@ const Login = require('../helpers/login.js');
 
 describe('Login', () => {
 
-    it('should login', () =>{
+    it('should email', () =>{
         Login(browser);
 
     });

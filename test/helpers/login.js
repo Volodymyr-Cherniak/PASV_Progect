@@ -11,7 +11,7 @@ function Login(browser){
     const button = $(sel.login.loginButton);
 
 
-    emailField.setValue(user.admin.login);
+    emailField.setValue(user.admin.email);
     passwordField.setValue(user.admin.password);
     browser.pause(2000);
     button.click();

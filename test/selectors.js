@@ -7,6 +7,7 @@ const sel = {
         loginButton: '//button[@class="btn btn-primary"]'
     },
     register: {
+        h1_Name: '//h1[text() = \'User Register\']',
         firstNameField: '//input[@name="firstName"]',
         lastNameField: '//input[@name=\'lastName\']',
         phoneField: '//input[@name=\'phone\']',
@@ -15,7 +16,7 @@ const sel = {
         aboutTextField: '//textarea[@placeholder="I\'m ..."]',
         myGoalsField: '//textarea[@placeholder=\'1... 2... 3...\']',
         englishLevelField: '//select[@name=\'englishLevel\']',
-        submitButton: '//button[@class=\'btn btn-primary disabled\']'
+        submitButton: '//button[text() = \'Submit\']'
     }
 };
 

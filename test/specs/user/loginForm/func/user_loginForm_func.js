@@ -19,7 +19,7 @@ describe('user -- loginForm -- func', () => {
         const expected = exp.h1Text;
         assert.equal(h1SelectorText, expected);
     });
-    // it('should login', () =>{
+    // it('should email', () =>{
     //     Login(browser);
     //
     // });

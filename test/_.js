@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const Login = require('../helpers/login');
+const Login = require('../helpers/email');
 
 describe('Login', () => {
 
@@ -7,7 +7,7 @@ describe('Login', () => {
         browser.url('https://stage.pasv.us/user/login')
     });
 
-    it('should login', () =>{
+    it('should email', () =>{
         Login(browser);
 
     });

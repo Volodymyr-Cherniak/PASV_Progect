@@ -5,7 +5,7 @@ const btnDiary = '//a[contains(text(),\'Diary\')]';
 
 describe('Login', () => {
 
-    it('should login', () =>{
+    it('should email', () =>{
         Login(browser);
     });
 });

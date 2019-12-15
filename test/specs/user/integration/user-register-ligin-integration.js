@@ -7,7 +7,7 @@ describe('User--Register--Login--integration', () => {
     before(() => {
         console.log('-----------------');
         axios.post(`${url.serverUrl}/user/login`, {
-            email: user.admin.login,
+            email: user.admin.email,
             password: user.admin.password
         })
             .then(function (response) {

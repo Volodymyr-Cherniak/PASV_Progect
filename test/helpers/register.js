@@ -19,7 +19,7 @@ function Register(browser) {
     firstName.setValue(user.student.name.firstName);
     lastName.setValue(user.student.name.lastName);
     phone.setValue(user.student.phone);
-    email.setValue(user.student.login);
+    email.setValue(user.student.email);
     password.setValue(user.student.password);
     about.setValue(user.student.about);
     myGoals.setValue(user.student.goals);
